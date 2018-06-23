@@ -123,7 +123,6 @@ GameObject:
   - component: {fileID: 371648309}
   - component: {fileID: 371648308}
   m_Layer: 0
-  m_Name: Sprite
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
