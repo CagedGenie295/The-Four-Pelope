@@ -2567,7 +2567,17 @@ Prefab:
     - target: {fileID: 114731569117432162, guid: 5e156c03f1bcce74c9d21653d75b5100,
         type: 2}
       propertyPath: JumpSpeed
-      value: 0.06
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114731569117432162, guid: 5e156c03f1bcce74c9d21653d75b5100,
+        type: 2}
+      propertyPath: RB
+      value: 
+      objectReference: {fileID: 1870763818}
+    - target: {fileID: 50348307069079708, guid: 5e156c03f1bcce74c9d21653d75b5100,
+        type: 2}
+      propertyPath: m_GravityScale
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e156c03f1bcce74c9d21653d75b5100, type: 2}
@@ -3411,6 +3421,11 @@ Transform:
 --- !u!1 &1870763816 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1847401300702972, guid: 5e156c03f1bcce74c9d21653d75b5100,
+    type: 2}
+  m_PrefabInternal: {fileID: 1285002533}
+--- !u!50 &1870763818 stripped
+Rigidbody2D:
+  m_PrefabParentObject: {fileID: 50348307069079708, guid: 5e156c03f1bcce74c9d21653d75b5100,
     type: 2}
   m_PrefabInternal: {fileID: 1285002533}
 --- !u!114 &1870763821
