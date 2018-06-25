@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class KillOnTouch : MonoBehaviour
 {
-
+    public string LevelToLoad;
     // Update is called once per frame
     void Update()
     {
@@ -15,7 +15,7 @@ public class KillOnTouch : MonoBehaviour
     {
         if (col.gameObject.name == "Player")
         {
-            Destroy(col.gameObject);
+            SceneManager.LoadScene(LevelToLoad);
         }
     }
 }
