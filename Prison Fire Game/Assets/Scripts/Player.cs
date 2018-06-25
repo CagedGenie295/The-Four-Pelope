@@ -4,29 +4,24 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
     public float PlayerSpeed;
-	public Rigidbody2D RB;
     public float JumpSpeed;
-    bool CanJump = true;
+	
 	// Update is called once per frame
 	void Update () {
-        //if (Input.GetKeyDown("d"))
+		if (Input.GetKey(KeyCode.A))
         {
-            RB.AddForce(Vector2.right * Input.GetAxis("Horizontal") * PlayerSpeed);
+            transform.Translate(-Vector2.right * PlayerSpeed);
         }
-        if (Input.GetButtonDown("Jump") && CanJump == true)
+        if (Input.GetKey(KeyCode.D))
         {
-            RB.AddForce(Vector2.up * JumpSpeed);
-            CanJump = false;
+            transform.Translate(Vector2.right * PlayerSpeed);
         }
-	}
+        if (Input.GetKey(KeyCode.Space))
+        {
+            transform.Translate(Vector2.up * JumpSpeed);
+        }
 
-
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        if (RB.velocity.y == 0)
-        {
-            CanJump = true;
-        }
     }
+
 
 }
