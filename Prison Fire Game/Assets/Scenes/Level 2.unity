@@ -122,10 +122,6 @@ GameObject:
   m_Component:
   - component: {fileID: 77742670}
   - component: {fileID: 77742671}
-<<<<<<< HEAD
-=======
-  - component: {fileID: 77742673}
->>>>>>> bebcf2dca7f710ec89b0615b3cdf37bc86d0ae87
   - component: {fileID: 77742672}
   m_Layer: 0
   m_Name: end goal
@@ -145,7 +141,7 @@ Transform:
   m_LocalScale: {x: 2.0138721, y: 2.120595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &77742671
 SpriteRenderer:
@@ -192,36 +188,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-<<<<<<< HEAD
 --- !u!114 &77742672
-=======
---- !u!61 &77742672
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 77742669}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!114 &77742673
->>>>>>> bebcf2dca7f710ec89b0615b3cdf37bc86d0ae87
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -232,11 +199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a1320ad3933a4c479238dcc2e915c0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   LevelToLoad: 
-=======
-  LevelToLoad: Level 3
->>>>>>> bebcf2dca7f710ec89b0615b3cdf37bc86d0ae87
 --- !u!1 &154345475
 GameObject:
   m_ObjectHideFlags: 0
@@ -693,7 +656,7 @@ Transform:
   - {fileID: 530088981}
   - {fileID: 352251473}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &277925484
 Rigidbody2D:
@@ -749,6 +712,8 @@ GameObject:
   m_Component:
   - component: {fileID: 298702246}
   - component: {fileID: 298702247}
+  - component: {fileID: 298702249}
+  - component: {fileID: 298702248}
   m_Layer: 0
   m_Name: stair (4)
   m_TagString: Untagged
@@ -814,6 +779,51 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &298702248
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 298702245}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &298702249
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 298702245}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &348386782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1346,7 +1356,7 @@ Transform:
   - {fileID: 1161455016}
   - {fileID: 1436116016}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &405348951
 GameObject:
@@ -1424,7 +1434,7 @@ Transform:
   - {fileID: 1658302948}
   - {fileID: 1939160253}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &405348954
 Rigidbody2D:
@@ -1940,6 +1950,8 @@ GameObject:
   m_Component:
   - component: {fileID: 767792235}
   - component: {fileID: 767792236}
+  - component: {fileID: 767792238}
+  - component: {fileID: 767792237}
   m_Layer: 0
   m_Name: stair (2)
   m_TagString: Untagged
@@ -2005,6 +2017,51 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &767792237
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 767792234}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &767792238
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 767792234}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &770560017
 GameObject:
   m_ObjectHideFlags: 0
@@ -2145,23 +2202,14 @@ Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 806540634}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.52, y: -1.29, z: 0}
   m_LocalScale: {x: 6.687639, y: 0.5423739, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
-  m_GameObject: {fileID: 773736884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51bbbbc00cb05e34b84d145b9b46106e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
->>>>>>> bebcf2dca7f710ec89b0615b3cdf37bc86d0ae87
 --- !u!1 &810349599
 GameObject:
   m_ObjectHideFlags: 0
@@ -2430,7 +2478,7 @@ Transform:
   - {fileID: 1128162073}
   - {fileID: 298702246}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.44701}
 --- !u!61 &825979295
 BoxCollider2D:
@@ -2441,7 +2489,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2629,7 +2677,7 @@ Transform:
   - {fileID: 2019291518}
   - {fileID: 1955151732}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &926177225
 Rigidbody2D:
@@ -2685,6 +2733,8 @@ GameObject:
   m_Component:
   - component: {fileID: 939602549}
   - component: {fileID: 939602550}
+  - component: {fileID: 939602552}
+  - component: {fileID: 939602551}
   m_Layer: 0
   m_Name: stair
   m_TagString: Untagged
@@ -2750,6 +2800,51 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &939602551
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 939602548}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &939602552
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 939602548}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &986516865
 GameObject:
   m_ObjectHideFlags: 0
@@ -3234,7 +3329,7 @@ Transform:
   - {fileID: 356089247}
   - {fileID: 1012739752}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1058346949
 BoxCollider2D:
@@ -3290,6 +3385,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1128162073}
   - component: {fileID: 1128162074}
+  - component: {fileID: 1128162076}
+  - component: {fileID: 1128162075}
   m_Layer: 0
   m_Name: stair (3)
   m_TagString: Untagged
@@ -3355,6 +3452,51 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1128162075
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1128162072}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &1128162076
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1128162072}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1157087769
 GameObject:
   m_ObjectHideFlags: 0
@@ -3427,7 +3569,7 @@ Transform:
   m_LocalScale: {x: 13.583768, y: 0.4893267, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1161455015
 GameObject:
@@ -3512,6 +3654,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1201580000}
   - component: {fileID: 1201580001}
+  - component: {fileID: 1201580003}
+  - component: {fileID: 1201580002}
   m_Layer: 0
   m_Name: stair (1)
   m_TagString: Untagged
@@ -3577,6 +3721,56 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1201580002
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1201579999}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &1201580003
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1201579999}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &1309792341 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4953387877650856, guid: f9b3a46797421ee43a17230c1128a202,
+    type: 2}
+  m_PrefabInternal: {fileID: 1961133589}
 --- !u!1 &1311894757
 GameObject:
   m_ObjectHideFlags: 0
@@ -3654,7 +3848,7 @@ Transform:
   - {fileID: 624241503}
   - {fileID: 354151967}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1311894760
 BoxCollider2D:
@@ -3800,7 +3994,7 @@ Transform:
   - {fileID: 1326917314}
   - {fileID: 348386783}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1323913318
 BoxCollider2D:
@@ -4201,7 +4395,7 @@ Transform:
   - {fileID: 1746721613}
   - {fileID: 655462463}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1419776962
 BoxCollider2D:
@@ -4522,7 +4716,7 @@ Camera:
   far clip plane: 1000
   field of view: 3.5304978
   orthographic: 1
-  orthographic size: 6.4692364
+  orthographic size: 7.729674
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -4545,11 +4739,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1758398408}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.9, y: 1.09, z: -40}
-  m_LocalScale: {x: 2.0388927, y: 2.038891, z: 2.0388916}
+  m_LocalPosition: {x: 12.57, y: 0.72, z: -40}
+  m_LocalScale: {x: 2.9172885, y: 1.5341622, z: 2.0388916}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 1309792341}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1765654420
 GameObject:
@@ -4880,12 +5074,12 @@ Prefab:
     - target: {fileID: 114413648575100536, guid: f9b3a46797421ee43a17230c1128a202,
         type: 2}
       propertyPath: JumpSpeed
-      value: 0.9
+      value: 1500
       objectReference: {fileID: 0}
     - target: {fileID: 50608873735422010, guid: f9b3a46797421ee43a17230c1128a202,
         type: 2}
       propertyPath: m_GravityScale
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f9b3a46797421ee43a17230c1128a202, type: 2}
