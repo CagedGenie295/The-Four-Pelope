@@ -18,9 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 2.unity
     guid: 2fe9db7a5214a5d4697d8ed32b94ff26
   - enabled: 1
+    path: Assets/Scenes/Level 2 wth Crowbar.unity
+    guid: 30abeac4ec586774bbb4466236201144
+  - enabled: 1
     path: Assets/Scenes/Level 3.unity
     guid: 831a358ced7dcbf42884f281bb676ffa
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Script Dev.unity
     guid: 0d4961890d1e9bf439a80e4a4bcae2b0
   m_configObjects: {}
