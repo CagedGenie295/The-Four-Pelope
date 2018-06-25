@@ -613,13 +613,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 270680559}
-  m_LocalRotation: {x: 0.1720374, y: 0.12899747, z: 0.33717948, w: -0.91655487}
-  m_LocalPosition: {x: -0.3603, y: 3.6233, z: 0}
-  m_LocalScale: {x: 0.0043511568, y: 0.019989502, z: 1}
+  m_LocalRotation: {x: 0.0008690449, y: -0.12973271, z: 0.9203897, w: 0.3688516}
+  m_LocalPosition: {x: 6.66, y: 2.487, z: 0.553}
+  m_LocalScale: {x: -1.1390667, y: 0.35385734, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 26
-  m_LocalEulerAnglesHint: {x: -23.725, y: -7.5600004, z: -398.805}
+  m_Father: {fileID: 775883856}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 13.854001, y: -5.5620003, z: 135.64601}
 --- !u!1 &343201265
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,7 +795,7 @@ Transform:
   m_LocalScale: {x: 0.63153386, y: 0.43173695, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &696893257
 GameObject:
@@ -1275,12 +1275,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 764007242}
-  m_LocalRotation: {x: -0.016191974, y: 0.014138067, z: -0.96503216, w: 0.26124856}
-  m_LocalPosition: {x: -0.33949998, y: 3.6775, z: 0}
-  m_LocalScale: {x: 0.031491708, y: 0.1628958, z: 1.0024239}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_LocalRotation: {x: 0.040746212, y: -0.08391731, z: -0.70133585, w: 0.7067006}
+  m_LocalPosition: {x: 1.2, y: 0.446, z: 0.0036}
+  m_LocalScale: {x: 0.09902943, y: 1.9190581, z: 1.210074}
+  m_Children:
+  - {fileID: 844997338}
+  m_Father: {fileID: 2123698876}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 1.079, y: 2.2150002, z: -149.684}
 --- !u!60 &764007245
 PolygonCollider2D:
@@ -1378,12 +1379,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 775883854}
-  m_LocalRotation: {x: -0.0000066432794, y: 0.000022468766, z: -0.28353307, w: -0.95896244}
-  m_LocalPosition: {x: -0.3582, y: 3.6053, z: 0}
-  m_LocalScale: {x: 0.0061277156, y: 0.033194985, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_LocalRotation: {x: 0.0073337723, y: 0.0018558484, z: -0.68090147, w: 0.7323359}
+  m_LocalPosition: {x: 1.76, y: 0.503, z: 0.0939}
+  m_LocalScale: {x: 0.090855464, y: 2.685548, z: 0.9548964}
+  m_Children:
+  - {fileID: 270680562}
+  m_Father: {fileID: 844997338}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0.001, y: -0.002, z: -327.05798}
 --- !u!60 &775883857
 PolygonCollider2D:
@@ -1832,13 +1834,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 844997336}
-  m_LocalRotation: {x: 0.006517027, y: 0.0038800451, z: -0.8606003, w: -0.5092246}
-  m_LocalPosition: {x: -0.3186, y: 3.6026, z: 0}
-  m_LocalScale: {x: 0.011909433, y: 0.07074293, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 23
-  m_LocalEulerAnglesHint: {x: 0.002, y: -0.869, z: -241.226}
+  m_LocalRotation: {x: 0.046299715, y: 0.082582854, z: -0.6833972, w: 0.7238817}
+  m_LocalPosition: {x: 0.67, y: 0.701, z: -0.1945}
+  m_LocalScale: {x: 0.12452434, y: 2.2515423, z: 1.2872095}
+  m_Children:
+  - {fileID: 775883856}
+  m_Father: {fileID: 764007244}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 10.364, y: 3.2800002, z: -86.407005}
 --- !u!60 &844997339
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2562,11 +2565,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4948032480061898, guid: 5e156c03f1bcce74c9d21653d75b5100, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -8.1
+      value: -0.478
       objectReference: {fileID: 0}
     - target: {fileID: 4948032480061898, guid: 5e156c03f1bcce74c9d21653d75b5100, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 3.3088
+      value: 3.873
       objectReference: {fileID: 0}
     - target: {fileID: 4948032480061898, guid: 5e156c03f1bcce74c9d21653d75b5100, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3481,6 +3484,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51bbbbc00cb05e34b84d145b9b46106e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1870763822 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4948032480061898, guid: 5e156c03f1bcce74c9d21653d75b5100,
+    type: 2}
+  m_PrefabInternal: {fileID: 1285002533}
 --- !u!1 &1911409701
 GameObject:
   m_ObjectHideFlags: 0
@@ -3612,7 +3620,6 @@ GameObject:
   - component: {fileID: 2123698876}
   - component: {fileID: 2123698875}
   - component: {fileID: 2123698877}
-  - component: {fileID: 2123698878}
   m_Layer: 0
   m_Name: Square (2)
   m_TagString: Untagged
@@ -3672,11 +3679,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2123698874}
   m_LocalRotation: {x: 0.06881067, y: 0.08259208, z: -0.49954852, w: 0.85959}
-  m_LocalPosition: {x: -0.4932, y: 3.6589, z: 0}
-  m_LocalScale: {x: 0.048216335, y: 0.3170297, z: 1.7394912}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_LocalPosition: {x: 0.58184606, y: 0.013380983, z: 0}
+  m_LocalScale: {x: 0.09124401, y: 0.85818183, z: 1.7978721}
+  m_Children:
+  - {fileID: 764007244}
+  m_Father: {fileID: 1870763822}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 11.585001, y: 4.288, z: -59.891003}
 --- !u!60 &2123698877
 PolygonCollider2D:
@@ -3687,7 +3695,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3706,18 +3714,6 @@ PolygonCollider2D:
       - {x: -0.5, y: 0.5}
       - {x: 0.5, y: 0.5}
       - {x: 0.5, y: -0.5}
---- !u!114 &2123698878
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2123698874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a1320ad3933a4c479238dcc2e915c0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LevelToLoad: Level One with Crowbar
 --- !u!1 &2128201298
 GameObject:
   m_ObjectHideFlags: 0
