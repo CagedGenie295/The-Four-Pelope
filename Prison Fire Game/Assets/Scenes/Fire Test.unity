@@ -2524,11 +2524,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4948032480061898, guid: 5e156c03f1bcce74c9d21653d75b5100, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -6.78
+      value: -8.1
       objectReference: {fileID: 0}
     - target: {fileID: 4948032480061898, guid: 5e156c03f1bcce74c9d21653d75b5100, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 3.311
+      value: 3.3088
       objectReference: {fileID: 0}
     - target: {fileID: 4948032480061898, guid: 5e156c03f1bcce74c9d21653d75b5100, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2552,7 +2552,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4948032480061898, guid: 5e156c03f1bcce74c9d21653d75b5100, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 50348307069079708, guid: 5e156c03f1bcce74c9d21653d75b5100,
         type: 2}
@@ -2567,7 +2567,7 @@ Prefab:
     - target: {fileID: 114731569117432162, guid: 5e156c03f1bcce74c9d21653d75b5100,
         type: 2}
       propertyPath: JumpSpeed
-      value: 0.8
+      value: 700
       objectReference: {fileID: 0}
     - target: {fileID: 114731569117432162, guid: 5e156c03f1bcce74c9d21653d75b5100,
         type: 2}
@@ -2578,6 +2578,10 @@ Prefab:
         type: 2}
       propertyPath: m_GravityScale
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4948032480061898, guid: 5e156c03f1bcce74c9d21653d75b5100, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.6426851
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e156c03f1bcce74c9d21653d75b5100, type: 2}
@@ -3185,7 +3189,7 @@ Transform:
   m_LocalScale: {x: 17.902863, y: 0.43124983, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1821688072 stripped
 GameObject:

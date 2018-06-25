@@ -19,11 +19,10 @@ public class Player : MonoBehaviour {
         }
         if (Input.GetButtonDown("Jump") && CanJump == true)
         {
-            transform.Translate(Vector2.up * JumpSpeed);
+            RB.AddForce(Vector2.up * JumpSpeed);
             CanJump = false;
         }
        
-
 
 
     }
