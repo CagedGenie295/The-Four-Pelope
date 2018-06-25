@@ -806,9 +806,9 @@ GameObject:
   m_Component:
   - component: {fileID: 696893260}
   - component: {fileID: 696893259}
-  - component: {fileID: 696893258}
   - component: {fileID: 696893261}
   - component: {fileID: 696893262}
+  - component: {fileID: 696893258}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -825,7 +825,7 @@ Animator:
   m_GameObject: {fileID: 696893257}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: eb6fd7ee3436e9b478c3a640e7a05a8e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7ac0d7b1b6bd29a47beab932700396c6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
