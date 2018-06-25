@@ -294,7 +294,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -348,6 +348,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &89747333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 89747329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3b3e9dcab073640a4f0689b4cab00d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelToLoad: Fire Test
 --- !u!1 &252191215
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,6 +373,7 @@ GameObject:
   - component: {fileID: 252191219}
   - component: {fileID: 252191218}
   - component: {fileID: 252191220}
+  - component: {fileID: 252191221}
   m_Layer: 0
   m_Name: Police
   m_TagString: Untagged
@@ -422,8 +435,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 252191215}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.341, y: -0.761, z: 0}
-  m_LocalScale: {x: 0.36582506, y: 0.63040686, z: 1.0749705}
+  m_LocalPosition: {x: 1.341, y: -0.895, z: 0}
+  m_LocalScale: {x: 0.36582506, y: 0.36334178, z: 1.0749705}
   m_Children:
   - {fileID: 812207273}
   m_Father: {fileID: 0}
@@ -458,7 +471,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -492,6 +505,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &252191221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 252191215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3b3e9dcab073640a4f0689b4cab00d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelToLoad: Fire Test
 --- !u!1 &270680559
 GameObject:
   m_ObjectHideFlags: 0
@@ -783,6 +808,7 @@ GameObject:
   - component: {fileID: 696893259}
   - component: {fileID: 696893258}
   - component: {fileID: 696893261}
+  - component: {fileID: 696893262}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -891,6 +917,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &696893262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 696893257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3b3e9dcab073640a4f0689b4cab00d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelToLoad: Fire Test
 --- !u!1 &710933577
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,8 +1560,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 812207272}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.027335446, y: 0.434, z: 0}
-  m_LocalScale: {x: 1.3497891, y: 0.7571066, z: 0.45934933}
+  m_LocalPosition: {x: 0.027335446, y: 0.654, z: 0}
+  m_LocalScale: {x: 1.3497891, y: 1.1977724, z: 0.45934933}
   m_Children: []
   m_Father: {fileID: 252191217}
   m_RootOrder: 0
