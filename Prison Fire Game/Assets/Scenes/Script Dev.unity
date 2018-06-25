@@ -512,11 +512,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4349657228871996, guid: bb618a58036f14449b9d1d335dc03534, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.7777693
+      value: 1.94
       objectReference: {fileID: 0}
     - target: {fileID: 4349657228871996, guid: bb618a58036f14449b9d1d335dc03534, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.215071
+      value: -1.01
       objectReference: {fileID: 0}
     - target: {fileID: 4349657228871996, guid: bb618a58036f14449b9d1d335dc03534, type: 2}
       propertyPath: m_LocalPosition.z
@@ -603,7 +603,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4953387877650856, guid: f9b3a46797421ee43a17230c1128a202, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: PlayerSpeed
