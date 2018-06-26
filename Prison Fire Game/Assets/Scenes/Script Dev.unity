@@ -282,7 +282,7 @@ Rigidbody2D:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 125964603}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -375,7 +375,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 125964603}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.18989353, y: -1.1300001, z: 0}
+  m_LocalPosition: {x: -0.155, y: -1.16, z: 0}
   m_LocalScale: {x: 0.005571993, y: 1.25, z: 1}
   m_Children:
   - {fileID: 1937019224}
@@ -612,11 +612,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4953387877650856, guid: f9b3a46797421ee43a17230c1128a202, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -2.94
+      value: -2.46
       objectReference: {fileID: 0}
     - target: {fileID: 4953387877650856, guid: f9b3a46797421ee43a17230c1128a202, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.93
+      value: -1.52
       objectReference: {fileID: 0}
     - target: {fileID: 4953387877650856, guid: f9b3a46797421ee43a17230c1128a202, type: 2}
       propertyPath: m_LocalPosition.z
@@ -679,7 +679,7 @@ Prefab:
     - target: {fileID: 114413648575100536, guid: f9b3a46797421ee43a17230c1128a202,
         type: 2}
       propertyPath: JumpSpeed
-      value: 2
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 114413648575100536, guid: f9b3a46797421ee43a17230c1128a202,
         type: 2}
@@ -1046,7 +1046,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1937019223}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.19999726, y: -0.62000006, z: 0}
+  m_LocalPosition: {x: 0.1, y: -0.64, z: 0}
   m_LocalScale: {x: 6.374671, y: 0.5861766, z: 0.73272073}
   m_Children: []
   m_Father: {fileID: 125964607}
@@ -1117,7 +1117,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1937019223}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1435,6 +1435,11 @@ Prefab:
     - target: {fileID: 4349657228871996, guid: bb618a58036f14449b9d1d335dc03534, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114711341229548236, guid: bb618a58036f14449b9d1d335dc03534,
+        type: 2}
+      propertyPath: LevelToLoad
+      value: Script Dev
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bb618a58036f14449b9d1d335dc03534, type: 2}
