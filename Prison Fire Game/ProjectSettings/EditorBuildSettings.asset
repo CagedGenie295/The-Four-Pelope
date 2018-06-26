@@ -4,5 +4,36 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< HEAD
   m_Scenes: []
+=======
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 528a13af38bae4f4589be9d08171570b
+  - enabled: 1
+    path: Assets/Scenes/HowToPlay.unity
+    guid: cf151660c3bd29d4ab015c44e9f25f19
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 674ba9ca652b8194a858030d1922662c
+  - enabled: 1
+    path: Assets/Scenes/Fire Test.unity
+    guid: 2b9881c7f4cf27741a4ac609d784dbf6
+  - enabled: 1
+    path: Assets/Scenes/Level One with Crowbar.unity
+    guid: 75accef80cea2844a9b9035c175d6403
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 2fe9db7a5214a5d4697d8ed32b94ff26
+  - enabled: 1
+    path: Assets/Scenes/Level 2 wth Crowbar.unity
+    guid: 30abeac4ec586774bbb4466236201144
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: 831a358ced7dcbf42884f281bb676ffa
+  - enabled: 1
+    path: Assets/Scenes/Level 3 With Crowbar.unity
+    guid: eeef621ddcc59834b8a8451b19c37d79
+>>>>>>> 34780ba36118b19fc18f028aae4622a3372f88ea
   m_configObjects: {}
