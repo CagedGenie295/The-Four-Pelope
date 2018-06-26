@@ -438,9 +438,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Prison Fire Escape\nCreated By:\nThe Four Pelope Industries\n (Ward A.
-    Sarvis, Allison R. Caldwell \nMichael J. Curry, and Taylor E. Hayward)\nAnd font
-    By:\nDafont.com"
+  m_Text: "Alca - ashes\nCreated By:\nThe Four Pelope Industries\n (Ward A. Sarvis,
+    Allison R. Caldwell \nMichael J. Curry, and Taylor E. Hayward)\nAnd font By:\nDafont.com"
 --- !u!222 &703833397
 CanvasRenderer:
   m_ObjectHideFlags: 0

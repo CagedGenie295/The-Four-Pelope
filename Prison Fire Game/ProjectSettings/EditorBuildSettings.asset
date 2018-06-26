@@ -4,12 +4,6 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
@@ -39,12 +33,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 3 With Crowbar.unity
     guid: eeef621ddcc59834b8a8451b19c37d79
   - enabled: 1
-    path: Assets/Scenes/Lose.unity
-    guid: 6e712802933641148bd22f74788376e5
-  - enabled: 1
     path: Assets/Scenes/Win.unity
     guid: 7a028e65092a88d469cf045854a7d821
->>>>>>> 04b96cbb2003e45bd3b475350d7f519a4cecdd23
->>>>>>> c2cf0f98b3f2730c8c1784f13d36c9acd6e9b082
->>>>>>> d7827a3a6f03a98160702249d0b4f2e2be9759c5
   m_configObjects: {}
