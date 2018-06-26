@@ -63,7 +63,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &61637478162087520
 --- !u!60 &60575772698745484
 PolygonCollider2D:
   m_ObjectHideFlags: 1
