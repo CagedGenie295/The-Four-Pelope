@@ -436,7 +436,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 22, y: 188.38}
+  m_AnchoredPosition: {x: 91, y: 187.39}
   m_SizeDelta: {x: 398.3, y: 48.6}
   m_Pivot: {x: 0.50000006, y: 0.5}
 --- !u!114 &596236629
@@ -471,7 +471,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Prison Fire Escape
+  m_Text: Alca-ashes
 --- !u!222 &596236630
 CanvasRenderer:
   m_ObjectHideFlags: 0
