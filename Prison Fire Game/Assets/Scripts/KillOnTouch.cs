@@ -17,5 +17,12 @@ public class KillOnTouch : MonoBehaviour
         {
             SceneManager.LoadScene(LevelToLoad);
         }
+
+        if (col.gameObject.name == "Players")
+        {
+            SceneManager.LoadScene(LevelToLoad);
+        }
+
+
     }
 }
