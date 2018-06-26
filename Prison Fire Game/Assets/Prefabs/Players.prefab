@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerSpeed: 0.09
-  JumpSpeed: 2
+  JumpSpeed: 2500
   RB: {fileID: 50608873735422010}
 --- !u!212 &212655568144396100
 SpriteRenderer:
