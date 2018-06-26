@@ -1958,7 +1958,7 @@ GameObject:
   m_Layer: 0
   m_Name: HotBox
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2051,7 +2051,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 865021707}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.01, y: 4.76, z: 0}
+  m_LocalPosition: {x: -3.01, y: 4.56, z: 0}
   m_LocalScale: {x: 8.09279, y: 0.2878723, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2812,17 +2812,17 @@ Prefab:
     - target: {fileID: 114413648575100536, guid: f9b3a46797421ee43a17230c1128a202,
         type: 2}
       propertyPath: JumpSpeed
-      value: 1500
+      value: 1300
       objectReference: {fileID: 0}
     - target: {fileID: 114413648575100536, guid: f9b3a46797421ee43a17230c1128a202,
         type: 2}
       propertyPath: PlayerSpeed
-      value: 0.2
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 50608873735422010, guid: f9b3a46797421ee43a17230c1128a202,
         type: 2}
       propertyPath: m_GravityScale
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f9b3a46797421ee43a17230c1128a202, type: 2}
@@ -3232,6 +3232,7 @@ GameObject:
   - component: {fileID: 1349480529}
   - component: {fileID: 1349480528}
   - component: {fileID: 1349480530}
+  - component: {fileID: 1349480531}
   m_Layer: 0
   m_Name: fire
   m_TagString: Untagged
@@ -3315,6 +3316,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1349480531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1349480527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3b3e9dcab073640a4f0689b4cab00d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelToLoad: Level 3
 --- !u!1 &1376132363
 GameObject:
   m_ObjectHideFlags: 0
