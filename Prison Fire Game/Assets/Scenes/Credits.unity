@@ -403,8 +403,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 24, y: -40.725}
-  m_SizeDelta: {x: 675.7, y: 451.45}
+  m_AnchoredPosition: {x: 24, y: -33}
+  m_SizeDelta: {x: 675.7, y: 436.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &703833396
 MonoBehaviour:
@@ -439,7 +439,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Alca - ashes\nCreated By:\nThe Four Pelope Industries\n (Ward A. Sarvis,
-    Allison R. Caldwell \nMichael J. Curry, and Taylor E. Hayward)\nAnd font By:\nDafont.com"
+    Allison R. Caldwell \nMichael J. Curry, and Taylor E. Hayward)\nFont By: Dafont.com\nMusic
+    By: Waco Brothers"
 --- !u!222 &703833397
 CanvasRenderer:
   m_ObjectHideFlags: 0
