@@ -27,7 +27,11 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
+<<<<<<< HEAD:Prison Fire Game/Assets/Animations/0I[POG.anim
         time: 29.95
+=======
+        time: 29
+>>>>>>> 52db25aa6aae17957e7b784486db6960696db005:Prison Fire Game/Assets/Scenes/0I[POG.anim
         value: {x: 2.6, y: 0.5, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -62,7 +66,11 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
+<<<<<<< HEAD:Prison Fire Game/Assets/Animations/0I[POG.anim
     m_StopTime: 29.95
+=======
+    m_StopTime: 29
+>>>>>>> 52db25aa6aae17957e7b784486db6960696db005:Prison Fire Game/Assets/Scenes/0I[POG.anim
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -91,7 +99,11 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
+<<<<<<< HEAD:Prison Fire Game/Assets/Animations/0I[POG.anim
         time: 29.95
+=======
+        time: 29
+>>>>>>> 52db25aa6aae17957e7b784486db6960696db005:Prison Fire Game/Assets/Scenes/0I[POG.anim
         value: 2.6
         inSlope: 0
         outSlope: 0
@@ -119,7 +131,11 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
+<<<<<<< HEAD:Prison Fire Game/Assets/Animations/0I[POG.anim
         time: 29.95
+=======
+        time: 29
+>>>>>>> 52db25aa6aae17957e7b784486db6960696db005:Prison Fire Game/Assets/Scenes/0I[POG.anim
         value: 0.5
         inSlope: 0
         outSlope: 0
@@ -147,7 +163,11 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
+<<<<<<< HEAD:Prison Fire Game/Assets/Animations/0I[POG.anim
         time: 29.95
+=======
+        time: 29
+>>>>>>> 52db25aa6aae17957e7b784486db6960696db005:Prison Fire Game/Assets/Scenes/0I[POG.anim
         value: 0
         inSlope: 0
         outSlope: 0
