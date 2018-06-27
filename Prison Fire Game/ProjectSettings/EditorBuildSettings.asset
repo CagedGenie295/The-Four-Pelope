@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 2 with crowbar 2.unity
     guid: 565b747a5d8ba0e49a536d6241ee2615
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: 831a358ced7dcbf42884f281bb676ffa
+  - enabled: 1
+    path: Assets/Scenes/Level 3 With Crowbar.unity
+    guid: eeef621ddcc59834b8a8451b19c37d79
   m_configObjects: {}
