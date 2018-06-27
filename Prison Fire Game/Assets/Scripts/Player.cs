@@ -2,14 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour
+{
     public float PlayerSpeed;
     public float JumpSpeed;
     public Rigidbody2D RB;
-     bool CanJump;
-	// Update is called once per frame
-	void Update () {
-		if (Input.GetKey(KeyCode.A))
+    bool CanJump;
+    public GameObject crowbar;
+    private void Start()
+    {
+        crowbar.SetActive(false);
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.A))
         {
             transform.Translate(-Vector2.right * PlayerSpeed);
         }
@@ -22,7 +29,7 @@ public class Player : MonoBehaviour {
             RB.AddForce(Vector2.up * JumpSpeed);
             CanJump = false;
         }
-       
+
 
 
     }
@@ -32,7 +39,13 @@ public class Player : MonoBehaviour {
         {
             CanJump = true;
         }
-
+        
     }
-
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.name == "Crowbar")
+        {
+            crowbar.SetActive(true);
+        }
+    }
 }
