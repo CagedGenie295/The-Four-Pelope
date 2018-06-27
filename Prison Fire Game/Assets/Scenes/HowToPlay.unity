@@ -566,7 +566,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Alca - ashes Rules:\n\tA to move left, D to move right, SPACE to jump.
     Avoid the Policemen and get to the level Exit at the bottom before the fire gets
-    to you. Get then crowbar to knock out policemen."
+    to you. Get the crowbar to knock out policemen."
 --- !u!222 &1708236451
 CanvasRenderer:
   m_ObjectHideFlags: 0
