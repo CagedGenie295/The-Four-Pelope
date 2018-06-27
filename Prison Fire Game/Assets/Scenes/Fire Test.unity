@@ -200,7 +200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a1320ad3933a4c479238dcc2e915c0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelToLoad: Level 2
+  LevelToLoad: Level 2 reserve
 --- !u!61 &63475254
 BoxCollider2D:
   m_ObjectHideFlags: 0
