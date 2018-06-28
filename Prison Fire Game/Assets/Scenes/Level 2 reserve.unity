@@ -11860,11 +11860,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4100352694669898, guid: 53a09161f0a6fe94abfa00784e9914fb, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -12.33
+      value: -12.478
       objectReference: {fileID: 0}
     - target: {fileID: 4100352694669898, guid: 53a09161f0a6fe94abfa00784e9914fb, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.08
+      value: 0.751
       objectReference: {fileID: 0}
     - target: {fileID: 4100352694669898, guid: 53a09161f0a6fe94abfa00784e9914fb, type: 2}
       propertyPath: m_LocalPosition.z
@@ -11892,11 +11892,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4100352694669898, guid: 53a09161f0a6fe94abfa00784e9914fb, type: 2}
       propertyPath: m_LocalScale.x
-      value: 7.355117
+      value: 5.712069
       objectReference: {fileID: 0}
     - target: {fileID: 4100352694669898, guid: 53a09161f0a6fe94abfa00784e9914fb, type: 2}
       propertyPath: m_LocalScale.y
-      value: 8.233627
+      value: 5.246263
       objectReference: {fileID: 0}
     - target: {fileID: 50608194830897340, guid: 53a09161f0a6fe94abfa00784e9914fb,
         type: 2}
@@ -11907,6 +11907,11 @@ Prefab:
         type: 2}
       propertyPath: m_GravityScale
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 50608194830897340, guid: 53a09161f0a6fe94abfa00784e9914fb,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53a09161f0a6fe94abfa00784e9914fb, type: 2}
@@ -15559,7 +15564,7 @@ Camera:
   far clip plane: 1000
   field of view: 3.5304978
   orthographic: 1
-  orthographic size: 14.243881
+  orthographic size: 16.765661
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
