@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 95233257138423574}
   - component: {fileID: 61829138951487064}
   m_Layer: 0
-  m_Name: Players 1
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -137,7 +137,6 @@ MonoBehaviour:
   PlayerSpeed: 0
   JumpSpeed: 0
   Anim: {fileID: 95233257138423574}
-  scale: 7.40331
 --- !u!212 &212863385749306784
 SpriteRenderer:
   m_ObjectHideFlags: 1
