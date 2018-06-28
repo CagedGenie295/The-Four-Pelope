@@ -8,7 +8,12 @@ public class NewPlayer : MonoBehaviour {
     public float JumpSpeed;
     bool CanJump = true;
     public Animator Anim;
+    float scale;
     // Use this for initialization
+    private void Start()
+    {
+        scale = transform.localScale.x;
+    }
     void Update () {
         if (Input.GetAxis("Horizontal") == 0)
         {
@@ -18,12 +23,12 @@ public class NewPlayer : MonoBehaviour {
         {
            // gameObject.GetComponent<SpriteRenderer>().
             
-            gameObject.transform.localScale = new Vector2(-2.675839f, gameObject.transform.localScale.y) ;
+            gameObject.transform.localScale = new Vector2(-scale, gameObject.transform.localScale.y) ;
             Anim.Play("MoveLeft");
         }
         if (Input.GetAxis("Horizontal") >0)
         {
-            gameObject.transform.localScale = new Vector2(2.675839f, gameObject.transform.localScale.y);
+            gameObject.transform.localScale = new Vector2(scale, gameObject.transform.localScale.y);
             Anim.Play("MoveLeft");
         }
 
