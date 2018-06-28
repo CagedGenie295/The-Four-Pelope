@@ -8,11 +8,13 @@ public class Player : MonoBehaviour
     public float JumpSpeed;
     public Rigidbody2D RB;
     bool CanJump;
-    public GameObject crowbar;
+    
     private void Start()
     {
-        crowbar.SetActive(false);
+
     }
+    
+       
     // Update is called once per frame
     void Update()
     {
@@ -41,11 +43,6 @@ public class Player : MonoBehaviour
         }
         
     }
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.name == "Crowbar")
-        {
-            crowbar.SetActive(true);
-        }
-    }
+    
+    
 }
