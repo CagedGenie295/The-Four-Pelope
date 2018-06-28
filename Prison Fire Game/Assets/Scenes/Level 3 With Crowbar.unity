@@ -2996,6 +2996,7 @@ GameObject:
   m_Component:
   - component: {fileID: 756676180}
   - component: {fileID: 756676179}
+  - component: {fileID: 756676181}
   m_Layer: 0
   m_Name: maxresdefault 2_0
   m_TagString: Untagged
@@ -3061,6 +3062,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &756676181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 756676178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3b3e9dcab073640a4f0689b4cab00d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelToLoad: Win
 --- !u!1 &777783774
 GameObject:
   m_ObjectHideFlags: 0
@@ -8468,15 +8481,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4199534102166648, guid: 4f696d74a12662f40b37c79891d45574, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.13663335
+      value: -0.083
       objectReference: {fileID: 0}
     - target: {fileID: 4199534102166648, guid: 4f696d74a12662f40b37c79891d45574, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.01739764
+      value: -0.043
       objectReference: {fileID: 0}
     - target: {fileID: 4199534102166648, guid: 4f696d74a12662f40b37c79891d45574, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -0.034803778
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 4199534102166648, guid: 4f696d74a12662f40b37c79891d45574, type: 2}
       propertyPath: m_LocalRotation.x
@@ -8627,18 +8640,6 @@ GameObject:
   m_PrefabParentObject: {fileID: 1037802675629908, guid: 4f696d74a12662f40b37c79891d45574,
     type: 2}
   m_PrefabInternal: {fileID: 1977924849}
---- !u!114 &1977924851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1977924850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d3b3e9dcab073640a4f0689b4cab00d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LevelToLoad: Level 3 With Crowbar
 --- !u!114 &1977924852
 MonoBehaviour:
   m_ObjectHideFlags: 0
