@@ -14,9 +14,17 @@ public class NewPlayer : MonoBehaviour {
         {
             Anim.Play("Idle");
         }
-        else
+        if (Input.GetAxis("Horizontal") <0)
         {
-            Anim.Play("Move");
+           // gameObject.GetComponent<SpriteRenderer>().
+            
+            gameObject.transform.localScale = new Vector2(-2.675839f, gameObject.transform.localScale.y) ;
+            Anim.Play("MoveLeft");
+        }
+        if (Input.GetAxis("Horizontal") >0)
+        {
+            gameObject.transform.localScale = new Vector2(2.675839f, gameObject.transform.localScale.y);
+            Anim.Play("MoveLeft");
         }
 
         RB.AddForce(Vector2.right * Input.GetAxis("Horizontal") * PlayerSpeed);

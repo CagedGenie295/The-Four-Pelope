@@ -3203,6 +3203,26 @@ Prefab:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 60167131965610650, guid: 4f696d74a12662f40b37c79891d45574,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 60108716846023370, guid: 4f696d74a12662f40b37c79891d45574,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 60220953256294540, guid: 4f696d74a12662f40b37c79891d45574,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 60479440983100472, guid: 4f696d74a12662f40b37c79891d45574,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f696d74a12662f40b37c79891d45574, type: 2}
   m_IsPrefabParent: 0
@@ -3336,11 +3356,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4100352694669898, guid: 53a09161f0a6fe94abfa00784e9914fb, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -7.19946
+      value: -7.2179
       objectReference: {fileID: 0}
     - target: {fileID: 4100352694669898, guid: 53a09161f0a6fe94abfa00784e9914fb, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 4.239038
+      value: 3.2982
       objectReference: {fileID: 0}
     - target: {fileID: 4100352694669898, guid: 53a09161f0a6fe94abfa00784e9914fb, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3385,6 +3405,14 @@ Prefab:
         type: 2}
       propertyPath: PlayerSpeed
       value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100352694669898, guid: 53a09161f0a6fe94abfa00784e9914fb, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2.6758392
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100352694669898, guid: 53a09161f0a6fe94abfa00784e9914fb, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2.4858596
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53a09161f0a6fe94abfa00784e9914fb, type: 2}
