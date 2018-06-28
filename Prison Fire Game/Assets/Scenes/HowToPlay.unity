@@ -529,8 +529,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 53, y: 46}
-  m_SizeDelta: {x: 702.9, y: 544.9}
+  m_AnchoredPosition: {x: 60, y: 50}
+  m_SizeDelta: {x: 702.9, y: 723.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1708236450
 MonoBehaviour:
@@ -564,9 +564,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Alca - ashes Rules:\n\tA to move left, D to move right, SPACE to jump.
-    Avoid the Policemen and get to the level Exit at the bottom before the fire gets
-    to you. Get the crowbar to knock out policemen."
+  m_Text: "Alca - ashes Rules:\n\tUse A to move left, D to move right, and SPACE to
+    jump. Avoid or knock out the Policemen with  the growbar by turning around when
+    next to them and get to the level Exit at the bottom before the fire gets to you.
+    Get the crowbar to knock out policemen."
 --- !u!222 &1708236451
 CanvasRenderer:
   m_ObjectHideFlags: 0
