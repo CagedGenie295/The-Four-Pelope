@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: fdf5d3de89f47ee45a930eb7d9c5a8c4
+guid: 2e47f7e083d84e349bb11ce1da18586c
 TextureImporter:
   fileIDToRecycleName:
-    21300000: 4 pelope pixelated main character_0
-    21300002: 4 pelope pixelated main character_1
+    21300000: 4 pelope pixelated main character with crowbar_0
+    21300002: 4 pelope pixelated main character with crowbar_1
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -31,7 +31,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -84,7 +84,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 4 pelope pixelated main character_0
+      name: 4 pelope pixelated main character with crowbar_0
       rect:
         serializedVersion: 2
         x: 1
@@ -98,13 +98,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 290b548fc697f3c478fde016fdae753a
+      spriteID: a01b1ce546a3a4747a7e0e6e4d8c43a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 4 pelope pixelated main character_1
+      name: 4 pelope pixelated main character with crowbar_1
       rect:
         serializedVersion: 2
         x: 21
@@ -118,7 +118,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 568df984f2ea6ca409daf88e2aa93ea2
+      spriteID: c45b28bfb73685a4c9ded62e2e29939a
       vertices: []
       indices: 
       edges: []
@@ -126,7 +126,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9659c3c102a6db544a31e675b542f676
+    spriteID: feb97d770f75fdc4088465d29b0da087
     vertices: []
     indices: 
     edges: []
